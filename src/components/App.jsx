@@ -52,8 +52,6 @@ export const App = () => {
     setContacts(contacts.filter(contact => contact.id !== evt.target.name));
   };
 
-  const filteredContacts = getFilteredValue();
-
   return (
     <div className={css.form_field}>
       <h1 className={css.heading}>Phonebook</h1>
